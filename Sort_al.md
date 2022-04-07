@@ -2,6 +2,10 @@ SortAlgo::insertionSort(int data[], int lenD)
 
 int key = 0
 int i = 0
-for(int N = 1;j<lenD;N++)
-    key = data[N]
-    i = N-1
+for(int j = 1;j<lenD;N++)
+    key = data[j]
+    i = j-1
+    while(i>=0 && data[i]>key)
+        data[i+1] = data[i]
+         i = i-1
+         data[i+1]=key
