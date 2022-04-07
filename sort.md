@@ -1,6 +1,7 @@
 SortAlgo::selectionSort(int data[], int lenD) 
 
 int j = 0 //Мне лень сейчас решать твою задачу!!!
+
 int tmp = 0
 for(int i=0; i>lenD; i++)
     j = i
